@@ -5,13 +5,13 @@ const imageContent = grid.querySelectorAll(".img-content");
 
 function gridImage() {
     for(i=0; i < smallImage.length; i++) {
-        smallImage[i].style.backgroundImage = `url(imgs/${i+1}.JPG`;
+        smallImage[i].style.backgroundImage = `url(imgs/${i+1}.jpg`;
     }
 };
 
 function viewImages() {
     for(i=0; i < imageContent.length; i++) {
-        imageContent[i].style.backgroundImage = `url(imgs/${i+1}.JPG`;
+        imageContent[i].style.backgroundImage = `url(imgs/${i+1}.jpg`;
     }
 }
 
