@@ -10,7 +10,7 @@
 
 html {
     /* background-color: #f1ece4; */
-    padding-top: calc(3858 / 375 * 1%);
+    /* padding-top: calc(3858 / 375 * 1%); */
 }
 
 body {
@@ -550,7 +550,7 @@ body {
 .buttons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
     width: calc(343/375 * 100%);
@@ -570,10 +570,10 @@ body {
     line-height: 18px;
     /* identical to box height, or 129% */
 
-    text-align: right;
+    text-align: center;
 
     border: 0;
-    width: 138px;
+    width: 48.5%;
     height: 32px;
 
     cursor: pointer;
@@ -582,15 +582,17 @@ body {
 }
 
 #kakao {
-    background-image: url(imgs/kakaomap.svg);
-    background-repeat: no-repeat;
     padding: 0;
+    background-color: #BFD0B4;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 #naver {
-    background-image: url(imgs/navermap.svg);
-    background-repeat: no-repeat;
     padding: 0;
+    background-color: #F1D3A5;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.9);
 }
 /*  */
 
@@ -772,6 +774,8 @@ body {
     text-align: center;
 
     cursor: pointer;
+
+    color: rgba(0, 0, 0, 0.9);
 }
 
 
