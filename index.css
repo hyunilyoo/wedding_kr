@@ -804,21 +804,42 @@ body {
     color: #743215;
 }
 
+.bride-part {
+    position: fixed;
+    width: 80%;
+    max-width: 400px;
+    min-width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 300ms ease-in-out;
+
+    z-index: 10;
+
+    background-color: #FFFFFF;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s;
+
+    border-radius: 4px;
+    border: 2px solid #f1ece4;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.03);
+    font: koreanFont;
+    color: #743215;
+}
+
 .acct-title {
     font-size: 18px;
     font-weight: 400;
-    letter-spacing: 0.2em;
-
     margin-top: 10px;
-    margin-bottom: 45px;
     
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding-left: 23%;
-    padding-right: 3%;
-
+    padding-left: 30%;
+    padding-right: 6%;
 }
 
 .acct-close-button {
@@ -841,10 +862,9 @@ body {
     font-weight: 400;;
 }
 
-/* .acct-name {
-} */
-
 .acct-info {
+    margin-top: 24px;
+    margin-bottom: 44px;
     line-height: 32px;
 }
 
@@ -866,6 +886,31 @@ body {
 }
 
 .groom-part.active {
+    position: fixed;
+    width: 80%;
+    max-width: 400px;
+    min-width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 300ms ease-in-out;
+
+    z-index: 10;
+
+    background-color: #FFFFFF;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s;
+
+    border-radius: 4px;
+    border: 2px solid #f1ece4;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.03);
+    font: koreanFont;
+    color: #743215;
+}
+
+.bride-part.active {
     position: fixed;
     width: 80%;
     max-width: 400px;
